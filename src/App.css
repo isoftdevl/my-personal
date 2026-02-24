@@ -224,6 +224,18 @@ html {
   margin-bottom: 4rem;
 }
 
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 2rem;
+  }
+  .section-subtitle {
+    margin-bottom: 2rem;
+  }
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* Project Card Details */
 .project-card {
   padding: 2rem;
@@ -413,6 +425,7 @@ html {
 .contact-btn {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1rem;
   background: linear-gradient(135deg, var(--accent-blue), var(--accent-purple));
   color: white;
@@ -442,6 +455,23 @@ html {
 .social-icon:hover {
   color: var(--accent-blue);
   transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .contact-card {
+    padding: 2rem 1.25rem;
+  }
+  .contact-card h2 {
+    font-size: 2rem;
+  }
+  .contact-btn {
+    width: 100%;
+    padding: 1rem 1.5rem;
+  }
+  .contact-links {
+    width: 100%;
+    gap: 1.5rem;
+  }
 }
 
 @media (max-width: 968px) {
