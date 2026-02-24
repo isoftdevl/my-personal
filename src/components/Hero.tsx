@@ -5,7 +5,7 @@ interface HeroProps {
     onOpenCV: () => void;
 }
 
-const Hero = ({ onOpenCV }: HeroProps) => {
+const Hero = ({ onOpenCV: _onOpenCV }: HeroProps) => {
     return (
         <section className="hero">
             <div className="container hero-grid">

@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { Mail, Linkedin, MapPin, Phone, X, Download, MessageSquare } from 'lucide-react';
+import { Mail, MapPin, Phone, X, Download, MessageSquare } from 'lucide-react';
 
 interface CVProps {
     isOpen: boolean;

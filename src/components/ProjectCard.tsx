@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { ExternalLink, Github, Layers, Zap } from 'lucide-react';
 import { Project } from '../data/projects';
@@ -8,7 +7,7 @@ interface ProjectCardProps {
     index: number;
 }
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ project, index }) => {
+const ProjectCard = ({ project, index }: ProjectCardProps) => {
     return (
         <motion.div
             initial={{ opacity: 0, scale: 0.9 }}
