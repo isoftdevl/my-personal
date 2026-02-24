@@ -16,9 +16,9 @@ const Hero = ({ onOpenCV: _onOpenCV }: HeroProps) => {
                     className="hero-content"
                 >
                     <h2 className="neon-text accent-text mt-3">Yahaya Ishaq</h2>
-                    <h1>Backend Laravel Developer</h1>
+                    <h1>Backend Engineer</h1>
                     <p className="hero-text">
-                        Building scalable APIs and backend systems for high-performance mobile and web applications.
+                        Building secure, compliance-ready APIs and backend systems for healthcare, fintech, and enterprise platforms.
                     </p>
                     <div className="hero-cta">
                         <button className="btn-primary" onClick={() => window.open('https://github.com/isoftdevl', '_blank')}>

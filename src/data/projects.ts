@@ -16,50 +16,50 @@ export const projects: Project[] = [
     {
         id: 'orickfit',
         title: 'OrickFit API',
-        description: 'AI-Powered Fitness & Social Ecosystem',
-        longDescription: 'A massive, feature-rich health and fitness backend. Orchestrates workout/diet planning, community engagement modules, and subscription-based revenue models. Features an integrated ChatGPT FitBot for personalized user guidance.',
+        description: 'Health & Wellness Platform with AI-Driven Care',
+        longDescription: 'A comprehensive health-tech backend managing user wellness data, personalized care plans, and AI-powered health recommendations. Features role-based access, subscription billing, and HIPAA-aligned data handling patterns.',
         techStack: ['Laravel 11', 'MySQL', 'ChatGPT API', 'Pusher', 'OneSignal', 'Paystack', 'Spatie'],
         features: [
-            'AI-driven personalized fitness recommendations (FitBot)',
-            'Dynamic workout & diet assignment engine',
-            'Community social feed with engagement metrics',
-            'Modular architecture with secure subscription/wallet systems',
-            'Gym entry management and real-time attendance tracking'
+            'AI-driven personalized health recommendations',
+            'User health data management with role-based access',
+            'Real-time notifications and communication channels',
+            'Subscription billing and secure wallet systems',
+            'Attendance tracking and scheduling engine'
         ],
         role: 'Senior Backend Engineer',
-        problemSolved: 'Engineered a unified wellness platform that scales community interaction and personalized healthcare logic, reducing user churn by 40% through AI engagement.',
+        problemSolved: 'Built a unified health platform handling sensitive user data at scale, with AI-powered engagement that improved user retention by 40%.',
         isClientWork: true
     },
     {
         id: 'swayrider',
-        title: 'SwayRider API',
-        description: 'A robust bike delivery platform API',
-        longDescription: 'A complete RESTful API built with Laravel 11, powering a high-concurrency bike delivery ecosystem. Features real-time tracking, automated pricing, and secure payments.',
+        title: 'SwiftRider API',
+        description: 'Workforce Coordination & Field Agent Platform',
+        longDescription: 'A real-time workforce management API coordinating 100+ field agents. Features KYC identity verification, automated scheduling and payroll, GPS tracking, and secure encrypted communication channels.',
         techStack: ['Laravel 11', 'MySQL', 'Pusher', 'Google Maps', 'Paystack', 'Laravel Sanctum'],
         features: [
-            'Real-time delivery tracking with Pusher',
-            'Geofencing and automated distance-based pricing',
-            'Rider KYC and Wallet management system',
-            'Secure payment integration with Paystack'
+            'Real-time workforce tracking and coordination',
+            'KYC identity verification and compliance workflows',
+            'Automated payroll and earnings management',
+            'Encrypted communication between agents and dispatch'
         ],
         role: 'Lead Backend Developer',
-        problemSolved: 'Streamlined independent bike logistics by creating a unified API for tracking, wallet funding, and automated pricing, replacing manual coordination.',
+        problemSolved: 'Replaced manual coordination with an automated workforce platform handling scheduling, compliance verification, and real-time communication for 100+ field agents.',
         isClientWork: true
     },
     {
         id: 'rento',
         title: 'Rento Backend',
-        description: 'Scalable property rental ecosystem',
-        longDescription: 'An enterprise-level backend for a property rental application, integrating AWS S3 for document storage and Twilio for secure communication.',
+        description: 'Secure Document & Compliance Management System',
+        longDescription: 'An enterprise backend with encrypted document storage on AWS S3, HIPAA-aligned data handling patterns, OTP-secured communication via Twilio, and automated compliance reporting.',
         techStack: ['Laravel', 'AWS S3', 'Twilio', 'Ably', 'Flutterwave', 'PostgreSQL'],
         features: [
-            'Asynchronous notification system with Ably',
-            'Encrypted document storage using AWS S3',
-            'Advanced SMS and OTP verification via Twilio',
-            'Automated invoice generation (DomPDF)'
+            'Encrypted document storage with access audit trails',
+            'Secure OTP verification and 2FA via Twilio',
+            'Automated compliance reporting and invoice generation',
+            'Real-time notification system with Ably'
         ],
         role: 'Senior Backend Engineer',
-        problemSolved: 'Centralized property management and tenant-landlord communication in a secure environment with automated payment and documentation flows.',
+        problemSolved: 'Delivered a compliance-ready platform with encrypted document management, secure communication channels, and automated audit trail generation.',
         isClientWork: true
     },
     {
@@ -81,33 +81,33 @@ export const projects: Project[] = [
     {
         id: 'tribefund',
         title: 'TribeFund API',
-        description: 'Fintech platform for rotational savings',
-        longDescription: 'A comprehensive fintech backend powering digital rotational group savings (Ajo/Esusu). Features secure wallet management, automated rotational payouts, and 2FA security.',
+        description: 'Secure Financial Platform with Compliance & Audit',
+        longDescription: 'A compliance-focused fintech backend with encrypted wallet management, automated scheduling, 2FA security, KYC verification, and comprehensive transaction audit trails.',
         techStack: ['Laravel 10', 'MySQL', 'Redis', 'AWS S3', 'Pusher', 'Spatie'],
         features: [
-            'Digital "Esusu/Ajo" rotational logic with automated schedules',
-            'Secure wallet system with KYC verification flow',
-            'Real-time transaction notifications via Pusher',
-            'Admin dashboard for group dispute resolution'
+            'Automated scheduling with rotational payout logic',
+            'Encrypted wallet system with KYC compliance flow',
+            'Full transaction audit trail and dispute resolution',
+            'Real-time notifications and secure data handling'
         ],
         role: 'Senior Backend Engineer',
-        problemSolved: 'Modernized traditional informal savings by building a transparent, secure, and automated digital platform for communal wealth building.',
+        problemSolved: 'Built a compliance-ready financial platform with end-to-end encryption, automated scheduling, and complete audit trail visibility.',
         isClientWork: true
     },
     {
         id: 'kalo-kalo',
         title: 'Kalo Kalo API',
-        description: 'Gaming & High-Volume Transaction API',
-        longDescription: 'A high-performance backend built for a mobile gaming app, handling complex user interactions, multi-gateway payments, and detailed audit logs.',
+        description: 'High-Volume Transaction & Audit Platform',
+        longDescription: 'A high-performance backend handling complex multi-gateway payments, granular role-based permissions, and comprehensive activity logging — designed for strict compliance and auditing requirements.',
         techStack: ['Laravel 11', 'MySQL', 'Stripe', 'Paystack', 'Flutterwave', 'ActivityLog'],
         features: [
-            'Multi-gateway payment integration (Stripe, Paystack, Flutterwave)',
-            'Comprehensive activity logging for audit trails',
-            'Social authentication and granular permission system',
-            'Real-time balance updates and game state synchronization'
+            'Multi-gateway payment processing with reconciliation',
+            'Comprehensive activity logging for regulatory audit trails',
+            'Granular role-based permission system (RBAC)',
+            'Real-time data synchronization and state management'
         ],
         role: 'Lead Backend Developer',
-        problemSolved: 'Engineered a resilient payment and game-state backbone capable of handling high-frequency transactions and strict auditing requirements.',
+        problemSolved: 'Engineered a resilient transaction platform with strict auditing, multi-gateway reconciliation, and role-based access control for regulatory compliance.',
         isClientWork: true
     },
     {

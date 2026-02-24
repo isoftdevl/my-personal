@@ -14,8 +14,8 @@ const Contact = () => {
                 >
                     <h2 className="section-title">Let's Connect</h2>
                     <p className="hero-text" style={{ textAlign: 'center', maxWidth: '600px', margin: '0 auto 3rem' }}>
-                        I'm always open to discussing new projects, backend architectures,
-                        or high-performance API solutions.
+                        I'm always open to discussing secure backend architectures,
+                        compliance-ready systems, or healthcare technology solutions.
                     </p>
 
                     <div className="contact-links">

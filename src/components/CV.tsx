@@ -32,7 +32,7 @@ const CV = ({ isOpen, onClose }: CVProps) => {
                             <header className="cv-header">
                                 <div className="cv-header-left">
                                     <h1>Yahaya Ishaq</h1>
-                                    <p className="cv-title accent-text">Backend Laravel Developer</p>
+                                    <p className="cv-title accent-text">Backend Engineer | Secure Systems & API Architect</p>
                                 </div>
                                 <div className="cv-contact-grid">
                                     <div className="cv-contact-item"><Mail size={16} /> <span>hire.isoftdev@gmail.com</span></div>
@@ -50,12 +50,24 @@ const CV = ({ isOpen, onClose }: CVProps) => {
                                             <li>Laravel / PHP</li>
                                             <li>RESTful API Design</li>
                                             <li>MySQL / PostgreSQL</li>
+                                            <li>Data Encryption & Compliance</li>
+                                            <li>Role-Based Access Control</li>
                                             <li>AWS S3 / Cloudflare</li>
                                             <li>Redis / Caching</li>
-                                            <li>Pusher / Real-time</li>
-                                            <li>Git / CI/CD</li>
+                                            <li>Pusher / Real-time Comms</li>
+                                            <li>Git / CI/CD Pipelines</li>
                                             <li>Payment Gateways</li>
                                             <li>Docker / DevOps</li>
+                                        </ul>
+                                    </div>
+                                    <div className="cv-section-block">
+                                        <h3>Core Competencies</h3>
+                                        <ul className="cv-skill-list">
+                                            <li>Sensitive Data Handling</li>
+                                            <li>Audit Trail & Logging</li>
+                                            <li>Scheduling Systems</li>
+                                            <li>Workflow Automation</li>
+                                            <li>Multi-Role Platforms</li>
                                         </ul>
                                     </div>
                                 </aside>
@@ -64,26 +76,31 @@ const CV = ({ isOpen, onClose }: CVProps) => {
                                     <div className="cv-section-block">
                                         <h3>Professional Summary</h3>
                                         <p>
-                                            A results-driven Backend Developer with extensive experience in the Laravel ecosystem.
-                                            Proven track record of building scalable APIs, secure financial systems, and high-concurrency
-                                            mobile backends. Expert in architecting complex database schemas and seamless
-                                            third-party integrations.
+                                            A results-driven Backend Engineer specializing in building secure, compliance-ready
+                                            API platforms in the Laravel ecosystem. Proven expertise in architecting systems that handle
+                                            sensitive user data, encrypted document storage, role-based access control, and real-time
+                                            communication — core requirements for healthcare and enterprise SaaS. Experienced in
+                                            multi-gateway payment processing, workforce scheduling logic, and comprehensive audit trails.
                                         </p>
                                     </div>
 
                                     <div className="cv-section-block">
                                         <h3>Key Projects</h3>
                                         <div className="cv-project-item">
-                                            <h4>SwayRider API <span className="cv-date">2024</span></h4>
-                                            <p>Lead Backend for a logistics platform. Automated distance pricing and real-time tracking for 100+ riders.</p>
+                                            <h4>OrickFit API — Health & Wellness Platform <span className="cv-date">2024</span></h4>
+                                            <p>Engineered a health-tech backend with AI-driven personalized recommendations, user health data management, subscription billing, and real-time notifications for 1,000+ users.</p>
                                         </div>
                                         <div className="cv-project-item">
-                                            <h4>TribeFund API <span className="cv-date">2023</span></h4>
-                                            <p>Architected a digital rotational savings platform with secure wallet logic and 2FA.</p>
+                                            <h4>SwiftRider API — Logistics & Workforce Platform <span className="cv-date">2024</span></h4>
+                                            <p>Built a real-time workforce coordination system with KYC verification, scheduling, automated payroll/earnings, and live GPS tracking for 100+ field agents.</p>
                                         </div>
                                         <div className="cv-project-item">
-                                            <h4>Rento Backend <span className="cv-date">2023</span></h4>
-                                            <p>Scaleable property management system with encrypted document storage on AWS S3.</p>
+                                            <h4>TribeFund API — Fintech & Compliance Platform <span className="cv-date">2023</span></h4>
+                                            <p>Architected a financial platform with encrypted wallet management, 2FA authentication, automated scheduling, and full transaction audit trails.</p>
+                                        </div>
+                                        <div className="cv-project-item">
+                                            <h4>Rento Backend — Document & Compliance System <span className="cv-date">2023</span></h4>
+                                            <p>Delivered encrypted document storage on AWS S3, secure OTP verification via Twilio, and automated invoice generation for sensitive tenant/landlord records.</p>
                                         </div>
                                     </div>
 
