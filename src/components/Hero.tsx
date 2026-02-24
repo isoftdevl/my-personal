@@ -21,7 +21,7 @@ const Hero = ({ onOpenCV }: HeroProps) => {
                         Building scalable APIs and backend systems for high-performance mobile and web applications.
                     </p>
                     <div className="hero-cta">
-                        <button className="btn-primary" onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}>
+                        <button className="btn-primary" onClick={() => window.open('https://github.com/isoftdevl', '_blank')}>
                             View GitHub
                         </button>
                         {/* <button className="btn-secondary" onClick={onOpenCV}>

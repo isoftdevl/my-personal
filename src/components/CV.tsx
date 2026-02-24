@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { Mail, Linkedin, MapPin, Phone, X, Download } from 'lucide-react';
+import { Mail, Linkedin, MapPin, Phone, X, Download, MessageSquare } from 'lucide-react';
 
 interface CVProps {
     isOpen: boolean;
@@ -35,10 +35,10 @@ const CV = ({ isOpen, onClose }: CVProps) => {
                                     <p className="cv-title accent-text">Backend Laravel Developer</p>
                                 </div>
                                 <div className="cv-contact-grid">
-                                    <div className="cv-contact-item"><Mail size={16} /> <span>yahaya.ishaq@example.com</span></div>
-                                    <div className="cv-contact-item"><Phone size={16} /> <span>+234 800 000 0000</span></div>
+                                    <div className="cv-contact-item"><Mail size={16} /> <span>hire.isoftdev@gmail.com</span></div>
+                                    <div className="cv-contact-item"><Phone size={16} /> <span>+234 816 067 8517 (Call)</span></div>
+                                    <div className="cv-contact-item"><MessageSquare size={16} /> <span>+234 704 417 5549 (WhatsApp)</span></div>
                                     <div className="cv-contact-item"><MapPin size={16} /> <span>Abuja, Nigeria</span></div>
-                                    <div className="cv-contact-item"><Linkedin size={16} /> <span>linkedin.com/in/yahaya-ishaq</span></div>
                                 </div>
                             </header>
 

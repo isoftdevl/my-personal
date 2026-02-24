@@ -19,14 +19,14 @@ const Contact = () => {
                     </p>
 
                     <div className="contact-links">
-                        <a href="mailto:your-email@example.com" className="contact-btn">
+                        <a href="mailto:hire.isoftdev@gmail.com" className="contact-btn">
                             <Mail size={20} />
                             <span>Email Me</span>
                         </a>
                         <div className="social-links">
-                            <a href="https://github.com" className="social-icon" title="GitHub"><Github size={24} /></a>
-                            <a href="https://linkedin.com" className="social-icon" title="LinkedIn"><Linkedin size={24} /></a>
-                            <a href="https://wa.me/your-number" className="social-icon" title="WhatsApp"><MessageSquare size={24} /></a>
+                            <a href="https://github.com/isoftdevl" className="social-icon" title="GitHub" target="_blank" rel="noopener noreferrer"><Github size={24} /></a>
+                            <a href="https://linkedin.com/in/yahaya-ishaq" className="social-icon" title="LinkedIn" target="_blank" rel="noopener noreferrer"><Linkedin size={24} /></a>
+                            <a href="https://wa.me/2347044175549" className="social-icon" title="WhatsApp" target="_blank" rel="noopener noreferrer"><MessageSquare size={24} /></a>
                         </div>
                     </div>
                 </motion.div>
