@@ -25,7 +25,8 @@
 
 @media (max-width: 968px) {
   .hero-grid {
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column-reverse;
     text-align: center;
     gap: 3rem;
   }
