@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import profileImg from '../assets/profile.png';
 
 interface HeroProps {
     onOpenCV: () => void;
@@ -39,7 +40,7 @@ const Hero = ({ onOpenCV }: HeroProps) => {
                     className="hero-image-container"
                 >
                     <div className="profile-frame">
-                        <img src="/src/assets/profile.png" alt="Yahaya Ishaq" className="profile-img" />
+                        <img src={profileImg} alt="Yahaya Ishaq" className="profile-img" />
                         <div className="profile-glow"></div>
                     </div>
                 </motion.div>
