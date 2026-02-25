@@ -46,7 +46,7 @@ export const projects: Project[] = [
         role: 'Lead Backend Developer',
         problemSolved: 'Replaced manual coordination with an automated workforce platform handling scheduling, compliance verification, and real-time communication for 100+ field agents.',
         isClientWork: true,
-        githubUrl: 'https://github.com/isoftdevl/swayrider-api'
+        githubUrl: 'https://github.com/isoftdevl/sway-rider-api'
     },
     {
         id: 'rento',
@@ -63,7 +63,7 @@ export const projects: Project[] = [
         role: 'Senior Backend Engineer',
         problemSolved: 'Delivered a compliance-ready platform with encrypted document management, secure communication channels, and automated audit trail generation.',
         isClientWork: true,
-        githubUrl: 'https://github.com/isoftdevl/rento-backend'
+        githubUrl: 'https://github.com/isoftdevl/rento-backend-api'
     },
     {
         id: 'b-solarpro',
@@ -79,7 +79,6 @@ export const projects: Project[] = [
         role: 'Full Stack Developer',
         problemSolved: 'Automated the tracking of solar panel inventory and installation lifecycles, reducing administrative overhead for solar service providers.',
         isClientWork: true,
-        githubUrl: 'https://github.com/isoftdevl/bsolar-pro',
         demoUrl: 'https://bsolarpro.com.ng/'
     },
     {
