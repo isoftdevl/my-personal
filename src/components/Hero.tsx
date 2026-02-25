@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import profileImg from '../assets/logo.png';
+import profileImg from '../assets/profile.png';
 
 interface HeroProps {
     onOpenCV: () => void;

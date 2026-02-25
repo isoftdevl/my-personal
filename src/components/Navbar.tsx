@@ -30,7 +30,7 @@ const Navbar = ({ onOpenCV }: NavbarProps) => {
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="container nav-container">
                 <div className="nav-logo">
-                    <img src="/src/assets/logo.png" alt="Yahaya Ishaq Logo" style={{ height: '40px', width: 'auto' }} />
+                    <img src="/src/assets/logo.png" alt="Yahaya Ishaq Logo" style={{ height: '50px', width: 'auto' }} />
                 </div>
 
                 <div className="nav-desktop">
