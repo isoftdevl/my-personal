@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Menu, X, Code2 } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 interface NavbarProps {
@@ -29,9 +29,8 @@ const Navbar = ({ onOpenCV }: NavbarProps) => {
     return (
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="container nav-container">
-                <div className="nav-logo accent-text neon-text">
-                    <Code2 size={24} />
-                    <span>Yahaya.Dev</span>
+                <div className="nav-logo">
+                    <img src="/src/assets/logo.png" alt="Yahaya Ishaq Logo" style={{ height: '40px', width: 'auto' }} />
                 </div>
 
                 <div className="nav-desktop">
