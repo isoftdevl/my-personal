@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import logoImg from '../assets/logo.png';
 
 interface NavbarProps {
     onOpenCV: () => void;
@@ -30,7 +31,7 @@ const Navbar = ({ onOpenCV }: NavbarProps) => {
         <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
             <div className="container nav-container">
                 <div className="nav-logo accent-text">
-                    <img src="/src/assets/logo.png" alt="Yahaya Ishaq Logo" style={{ height: '55px', width: 'auto', marginRight: '12px' }} />
+                    <img src={logoImg} alt="Yahaya Ishaq Logo" style={{ height: '50px', width: 'auto', marginRight: '12px', borderRadius: '4px' }} />
                     <span className="neon-text" style={{ fontWeight: 800, fontSize: '1.7rem', display: 'flex', alignItems: 'center' }}>Yahaya.Dev</span>
                 </div>
 
