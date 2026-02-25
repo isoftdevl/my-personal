@@ -28,7 +28,8 @@ export const projects: Project[] = [
         ],
         role: 'Senior Backend Engineer',
         problemSolved: 'Built a unified health platform handling sensitive user data at scale, with AI-powered engagement that improved user retention by 40%.',
-        isClientWork: true
+        isClientWork: true,
+        githubUrl: 'https://github.com/isoftdevl/orickfitness-api'
     },
     {
         id: 'swayrider',
@@ -44,7 +45,8 @@ export const projects: Project[] = [
         ],
         role: 'Lead Backend Developer',
         problemSolved: 'Replaced manual coordination with an automated workforce platform handling scheduling, compliance verification, and real-time communication for 100+ field agents.',
-        isClientWork: true
+        isClientWork: true,
+        githubUrl: 'https://github.com/isoftdevl/swayrider-api'
     },
     {
         id: 'rento',
@@ -60,7 +62,8 @@ export const projects: Project[] = [
         ],
         role: 'Senior Backend Engineer',
         problemSolved: 'Delivered a compliance-ready platform with encrypted document management, secure communication channels, and automated audit trail generation.',
-        isClientWork: true
+        isClientWork: true,
+        githubUrl: 'https://github.com/isoftdevl/rento-backend'
     },
     {
         id: 'b-solarpro',
@@ -76,6 +79,7 @@ export const projects: Project[] = [
         role: 'Full Stack Developer',
         problemSolved: 'Automated the tracking of solar panel inventory and installation lifecycles, reducing administrative overhead for solar service providers.',
         isClientWork: true,
+        githubUrl: 'https://github.com/isoftdevl/bsolar-pro',
         demoUrl: 'https://bsolarpro.com.ng/'
     },
     {
@@ -92,7 +96,8 @@ export const projects: Project[] = [
         ],
         role: 'Senior Backend Engineer',
         problemSolved: 'Built a compliance-ready financial platform with end-to-end encryption, automated scheduling, and complete audit trail visibility.',
-        isClientWork: true
+        isClientWork: true,
+        githubUrl: 'https://github.com/isoftdevl/tribefund-api'
     },
     {
         id: 'kalo-kalo',
@@ -108,7 +113,8 @@ export const projects: Project[] = [
         ],
         role: 'Lead Backend Developer',
         problemSolved: 'Engineered a resilient transaction platform with strict auditing, multi-gateway reconciliation, and role-based access control for regulatory compliance.',
-        isClientWork: true
+        isClientWork: true,
+        githubUrl: 'https://github.com/isoftdevl/kalo-kalo-api'
     },
     {
         id: 'voting-api',
@@ -124,6 +130,7 @@ export const projects: Project[] = [
         ],
         role: 'Backend Developer',
         problemSolved: 'Delivered a transparent and tamper-resistant voting platform that handles intense traffic spikes during live voting events.',
-        isClientWork: true
+        isClientWork: true,
+        githubUrl: 'https://github.com/isoftdevl/voting-api'
     }
 ];
