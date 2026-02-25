@@ -46,7 +46,7 @@ export const projects: Project[] = [
         role: 'Lead Backend Developer',
         problemSolved: 'Replaced manual coordination with an automated workforce platform handling scheduling, compliance verification, and real-time communication for 100+ field agents.',
         isClientWork: true,
-        githubUrl: 'https://github.com/isoftdevl/sway-rider-api'
+        githubUrl: 'https://github.com/isoftdevl/swayrider-api'
     },
     {
         id: 'rento',
