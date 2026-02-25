@@ -47,10 +47,10 @@ const ProjectCard = ({ project, index }: ProjectCardProps) => {
             <div className="project-actions">
                 <div className="links">
                     {project.githubUrl && (
-                        <a href={project.githubUrl} className="icon-link" title="GitHub"><Github size={20} /></a>
+                        <a href={project.githubUrl} className="icon-link" target="_blank" rel="noopener noreferrer" title="GitHub"><Github size={30} /></a>
                     )}
                     {project.demoUrl && (
-                        <a href={project.demoUrl} className="icon-link" title="Live Demo"><ExternalLink size={20} /></a>
+                        <a href={project.demoUrl} className="icon-link" target="_blank" rel="noopener noreferrer" title="Live Demo"><ExternalLink size={30} /></a>
                     )}
                 </div>
                 {!project.demoUrl && (
